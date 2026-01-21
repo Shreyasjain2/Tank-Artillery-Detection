@@ -22,7 +22,7 @@ The system processes **multimodal inputs (image + text prompt)** and generates *
 Florence-2 is a unified vision–language foundation model that treats all vision tasks as **text generation problems**.
 
 ### High-Level Architecture
-![Florence-2 Architecture](Screenshots/florence2_architecture.png)
+![Florence-2 Architecture](https://github.com/Shreyasjain2/Tank-Artillery-Detection/blob/main/Screenshots/model_archi.png)
 
 ### Core Components
 - **Vision Encoder**
@@ -47,7 +47,7 @@ Florence-2 is a unified vision–language foundation model that treats all visio
 Instead of full fine-tuning, we inject **Low-Rank Adaptation (LoRA)** layers into selected transformer modules.
 
 ### LoRA Injection Strategy
-![LoRA Architecture](Screenshots/lora_architecture.png)
+![LoRA Architecture](https://github.com/Shreyasjain2/Tank-Artillery-Detection/blob/main/Screenshots/lora%20arch.png)
 
 ### Advantages
 - 10–100× reduction in trainable parameters
@@ -142,7 +142,7 @@ Training on real-world military imagery introduces several non-trivial challenge
 Inference is performed in a **prompt-driven manner**, leveraging Florence-2’s text generation capability to produce object detections.
 
 ### Inference Pipeline
-![Inference Pipeline](Screenshots/inference_pipeline.png)
+![Inference Pipeline](https://github.com/Shreyasjain2/Tank-Artillery-Detection/blob/main/Screenshots/inference.jpg)
 
 ### Example Inference Output
 Prompt: Detect military objects in this image:
@@ -152,7 +152,7 @@ Output: Tank (x1, y1, x2, y2); Armored Vehicle (x1, y1, x2, y2)
 ### Visualization
 A custom rendering utility converts the generated textual bounding boxes into visual overlays for qualitative analysis.
 
-![Detection Results](Screenshots/detection_results.png)
+![Detection Results](https://github.com/Shreyasjain2/Tank-Artillery-Detection/blob/main/Screenshots/Screenshot%202025-05-16%20193337.png)
 
 ---
 
