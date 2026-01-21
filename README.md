@@ -73,7 +73,7 @@ The dataset is stored in **JSONL format**, pairing images with prompt–response
 ![Dataset Structure](Screenshots/dataset_structure.png)
 
 ### JSONL Sample
-```json
+json
 {
   "image": "tank_001.jpg",
   "prefix": "Detect military objects in this image:",
