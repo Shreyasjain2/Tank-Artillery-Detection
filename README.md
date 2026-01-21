@@ -70,7 +70,6 @@ Instead of full fine-tuning, we inject **Low-Rank Adaptation (LoRA)** layers int
 The dataset is stored in **JSONL format**, pairing images with prompt–response text.
 
 ### Dataset Structure
-![Dataset Structure](Screenshots/dataset_structure.png)
 
 ### JSONL Sample
 json
@@ -117,9 +116,6 @@ Training on real-world military imagery introduces several non-trivial challenge
 ---
 
 ## Training Pipeline
-
-### End-to-End Training Flow
-![Training Pipeline](Screenshots/training_pipeline.png)
 
 ### Training Configuration
 - **Batch Size:** 6  
